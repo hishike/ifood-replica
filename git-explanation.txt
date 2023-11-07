@@ -1,0 +1,28 @@
+CMD -> Caso não funcione cd + diretório (Ex: cd E:\Programação\santander-coders\aula-git), utilize
+cd /d E:\Programação\santander-coders\aula-git para mudar o diretório selecionado no prompt
+
+
+Untracked - Adicionar um arquivo e passar para a área de staged (live) através de git add .\NomeDoArquivo
+
+Unmodified - Salvo no estado em que está / Já receberam commit
+
+Modified - Arquivos modificados. É possível usar git status para verificar
+
+Staged - Live version
+
+**Apertar Q sai dos comandos, como git log
+
+**git status - serve para verificar como a branch está com relação ao master
+
+**git add - adiciona arquivo através do comando git add .\NomeDoArquivo
+
+**git diff - mostra as diferenças
+
+**git commit - realizar o commit pós staging
+
+**git log mostra o autor e quando foram feitas as alterações
+
+**git restore serve para restaurar versões/alterações anteriores antes do commit (durante a fase de staging)
+**git restore e o nome do arquivo 
+**Ex: git restore .\git-explanation.txt
+
